@@ -1,0 +1,259 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33328.57
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{B15448C5-97ED-44DA-8184-3DE0BBD1548D}"
+	ProjectSection(SolutionItems) = preProject
+		gulp-config.js = gulp-config.js
+		gulpfile.js = gulpfile.js
+		package.json = package.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{6E59A3F6-B13F-4533-B41D-69DFF56202C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{41310AA2-1731-4F2B-9B9E-9E0E9398C987}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{B2104D85-DA54-4E06-A939-AE903F673566}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Blog", "Blog", "{16C1E069-1C96-426E-BCD5-C8E5D2AF1118}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog.Feature.Blog", "src\Feature\Blog\code\Blog.Feature.Blog.csproj", "{5F65F902-4443-43A4-9F74-3BD155B94E81}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serialization", "Serialization", "{4110BB82-56B3-4B03-9B9D-0D80DDE7743C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Blog.Content", "Blog.Content", "{B69734CD-AC21-418D-AD01-A295345D34B0}"
+	ProjectSection(SolutionItems) = preProject
+		src\Feature\Blog\Serialization\Blog.Content\Blog.yml = src\Feature\Blog\Serialization\Blog.Content\Blog.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Blog.Dictionary", "Blog.Dictionary", "{D1E1578E-3262-43AF-814B-F8601C462CC1}"
+	ProjectSection(SolutionItems) = preProject
+		src\Feature\Blog\Serialization\Blog.Dictionary\Blog.yml = src\Feature\Blog\Serialization\Blog.Dictionary\Blog.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Blog.Layouts", "Blog.Layouts", "{72F08631-DC49-4964-BAE6-B07A735ADF45}"
+	ProjectSection(SolutionItems) = preProject
+		src\Feature\Blog\Serialization\Blog.Layouts\Blog.yml = src\Feature\Blog\Serialization\Blog.Layouts\Blog.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Blog", "Blog", "{B824F0B8-9BDC-48E8-A987-6D835C3A4267}"
+	ProjectSection(SolutionItems) = preProject
+		src\Feature\Blog\Serialization\Blog.Content\Blog\Home.yml = src\Feature\Blog\Serialization\Blog.Content\Blog\Home.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Home", "Home", "{AF8BA0FC-A190-4A5B-9303-2AF751CD3471}"
+	ProjectSection(SolutionItems) = preProject
+		src\Feature\Blog\Serialization\Blog.Content\Blog\Home\Articles.yml = src\Feature\Blog\Serialization\Blog.Content\Blog\Home\Articles.yml
+		src\Feature\Blog\Serialization\Blog.Content\Blog\Home\Settings.yml = src\Feature\Blog\Serialization\Blog.Content\Blog\Home\Settings.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Articles", "Articles", "{8F2DD23B-5E05-4FE3-8B89-32B7CE2C5278}"
+	ProjectSection(SolutionItems) = preProject
+		src\Feature\Blog\Serialization\Blog.Content\Blog\Home\Articles\Blog post title 2.yml = src\Feature\Blog\Serialization\Blog.Content\Blog\Home\Articles\Blog post title 2.yml
+		src\Feature\Blog\Serialization\Blog.Content\Blog\Home\Articles\Blog post title 3.yml = src\Feature\Blog\Serialization\Blog.Content\Blog\Home\Articles\Blog post title 3.yml
+		src\Feature\Blog\Serialization\Blog.Content\Blog\Home\Articles\Blog post title.yml = src\Feature\Blog\Serialization\Blog.Content\Blog\Home\Articles\Blog post title.yml
+		src\Feature\Blog\Serialization\Blog.Content\Blog\Home\Articles\Long blog post title.yml = src\Feature\Blog\Serialization\Blog.Content\Blog\Home\Articles\Long blog post title.yml
+		src\Feature\Blog\Serialization\Blog.Content\Blog\Home\Articles\Super long blog post title.yml = src\Feature\Blog\Serialization\Blog.Content\Blog\Home\Articles\Super long blog post title.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Settings", "Settings", "{2C5E6D19-5404-4CF7-8EC6-AFCB2D2F4C4E}"
+	ProjectSection(SolutionItems) = preProject
+		src\Feature\Blog\Serialization\Blog.Content\Blog\Home\Settings\404.yml = src\Feature\Blog\Serialization\Blog.Content\Blog\Home\Settings\404.yml
+		src\Feature\Blog\Serialization\Blog.Content\Blog\Home\Settings\Categories.yml = src\Feature\Blog\Serialization\Blog.Content\Blog\Home\Settings\Categories.yml
+		src\Feature\Blog\Serialization\Blog.Content\Blog\Home\Settings\GlobalSettings.yml = src\Feature\Blog\Serialization\Blog.Content\Blog\Home\Settings\GlobalSettings.yml
+		src\Feature\Blog\Serialization\Blog.Content\Blog\Home\Settings\Tags.yml = src\Feature\Blog\Serialization\Blog.Content\Blog\Home\Settings\Tags.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Categories", "Categories", "{2E93F64C-C605-433F-B6F8-47D9FA544386}"
+	ProjectSection(SolutionItems) = preProject
+		src\Feature\Blog\Serialization\Blog.Content\Blog\Home\Settings\Categories\Design.yml = src\Feature\Blog\Serialization\Blog.Content\Blog\Home\Settings\Categories\Design.yml
+		src\Feature\Blog\Serialization\Blog.Content\Blog\Home\Settings\Categories\Software.yml = src\Feature\Blog\Serialization\Blog.Content\Blog\Home\Settings\Categories\Software.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tags", "Tags", "{662CE078-C695-4308-B466-39560802A65B}"
+	ProjectSection(SolutionItems) = preProject
+		src\Feature\Blog\Serialization\Blog.Content\Blog\Home\Settings\Tags\Extra Long Tag.yml = src\Feature\Blog\Serialization\Blog.Content\Blog\Home\Settings\Tags\Extra Long Tag.yml
+		src\Feature\Blog\Serialization\Blog.Content\Blog\Home\Settings\Tags\Mega Super Extra Long Tag.yml = src\Feature\Blog\Serialization\Blog.Content\Blog\Home\Settings\Tags\Mega Super Extra Long Tag.yml
+		src\Feature\Blog\Serialization\Blog.Content\Blog\Home\Settings\Tags\Super Extra Long Tag.yml = src\Feature\Blog\Serialization\Blog.Content\Blog\Home\Settings\Tags\Super Extra Long Tag.yml
+		src\Feature\Blog\Serialization\Blog.Content\Blog\Home\Settings\Tags\Tag.yml = src\Feature\Blog\Serialization\Blog.Content\Blog\Home\Settings\Tags\Tag.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Blog", "Blog", "{ACCAB8FF-DE87-44B3-9CBB-5F308524B5A9}"
+	ProjectSection(SolutionItems) = preProject
+		src\Feature\Blog\Serialization\Blog.Dictionary\Blog\SearchBlogsButton.yml = src\Feature\Blog\Serialization\Blog.Dictionary\Blog\SearchBlogsButton.yml
+		src\Feature\Blog\Serialization\Blog.Dictionary\Blog\SearchBlogsPlaceholder.yml = src\Feature\Blog\Serialization\Blog.Dictionary\Blog\SearchBlogsPlaceholder.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Blog", "Blog", "{94212718-4378-4EB3-A7D9-BD68A9C2F2B3}"
+	ProjectSection(SolutionItems) = preProject
+		src\Feature\Blog\Serialization\Blog.Layouts\Blog\DefaultLayout.yml = src\Feature\Blog\Serialization\Blog.Layouts\Blog\DefaultLayout.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Blog.Renderings", "Blog.Renderings", "{FD478744-9D66-4B10-AB56-A00CA4373B0A}"
+	ProjectSection(SolutionItems) = preProject
+		src\Feature\Blog\Serialization\Blog.Renderings\Blog.yml = src\Feature\Blog\Serialization\Blog.Renderings\Blog.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Blog", "Blog", "{64A85DF9-7B0D-4874-9DF8-3A1D3B90D875}"
+	ProjectSection(SolutionItems) = preProject
+		src\Feature\Blog\Serialization\Blog.Renderings\Blog\BlogController.yml = src\Feature\Blog\Serialization\Blog.Renderings\Blog\BlogController.yml
+		src\Feature\Blog\Serialization\Blog.Renderings\Blog\Footer.yml = src\Feature\Blog\Serialization\Blog.Renderings\Blog\Footer.yml
+		src\Feature\Blog\Serialization\Blog.Renderings\Blog\Header-Special.yml = src\Feature\Blog\Serialization\Blog.Renderings\Blog\Header-Special.yml
+		src\Feature\Blog\Serialization\Blog.Renderings\Blog\Header.yml = src\Feature\Blog\Serialization\Blog.Renderings\Blog\Header.yml
+		src\Feature\Blog\Serialization\Blog.Renderings\Blog\MainBody.yml = src\Feature\Blog\Serialization\Blog.Renderings\Blog\MainBody.yml
+		src\Feature\Blog\Serialization\Blog.Renderings\Blog\MainBodyFocused.yml = src\Feature\Blog\Serialization\Blog.Renderings\Blog\MainBodyFocused.yml
+		src\Feature\Blog\Serialization\Blog.Renderings\Blog\NotFoundMainBody.yml = src\Feature\Blog\Serialization\Blog.Renderings\Blog\NotFoundMainBody.yml
+		src\Feature\Blog\Serialization\Blog.Renderings\Blog\Search.yml = src\Feature\Blog\Serialization\Blog.Renderings\Blog\Search.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Blog.Templates", "Blog.Templates", "{7D8C12C2-1096-49B9-8036-215453BAA8F1}"
+	ProjectSection(SolutionItems) = preProject
+		src\Feature\Blog\Serialization\Blog.Templates\Blog.yml = src\Feature\Blog\Serialization\Blog.Templates\Blog.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Blog", "Blog", "{89D81AF3-E5C2-4AC9-B1C7-0D00A4E35D71}"
+	ProjectSection(SolutionItems) = preProject
+		src\Feature\Blog\Serialization\Blog.Templates\Blog\BlogArticle.yml = src\Feature\Blog\Serialization\Blog.Templates\Blog\BlogArticle.yml
+		src\Feature\Blog\Serialization\Blog.Templates\Blog\Category.yml = src\Feature\Blog\Serialization\Blog.Templates\Blog\Category.yml
+		src\Feature\Blog\Serialization\Blog.Templates\Blog\Settings.yml = src\Feature\Blog\Serialization\Blog.Templates\Blog\Settings.yml
+		src\Feature\Blog\Serialization\Blog.Templates\Blog\Tags.yml = src\Feature\Blog\Serialization\Blog.Templates\Blog\Tags.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BlogArticle", "BlogArticle", "{C2944393-D884-4D34-9BC5-0394EDC491A0}"
+	ProjectSection(SolutionItems) = preProject
+		src\Feature\Blog\Serialization\Blog.Templates\Blog\BlogArticle\__Standard Values.yml = src\Feature\Blog\Serialization\Blog.Templates\Blog\BlogArticle\__Standard Values.yml
+		src\Feature\Blog\Serialization\Blog.Templates\Blog\BlogArticle\BlogArticle Data Section.yml = src\Feature\Blog\Serialization\Blog.Templates\Blog\BlogArticle\BlogArticle Data Section.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Category", "Category", "{4C4EC764-0845-4080-AF2B-601B59596673}"
+	ProjectSection(SolutionItems) = preProject
+		src\Feature\Blog\Serialization\Blog.Templates\Blog\Category\__Standard Values.yml = src\Feature\Blog\Serialization\Blog.Templates\Blog\Category\__Standard Values.yml
+		src\Feature\Blog\Serialization\Blog.Templates\Blog\Category\Category Data Section.yml = src\Feature\Blog\Serialization\Blog.Templates\Blog\Category\Category Data Section.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Settings", "Settings", "{C17D57B4-E499-4876-A2B2-30BD25B06C93}"
+	ProjectSection(SolutionItems) = preProject
+		src\Feature\Blog\Serialization\Blog.Templates\Blog\Settings\__Standard Values.yml = src\Feature\Blog\Serialization\Blog.Templates\Blog\Settings\__Standard Values.yml
+		src\Feature\Blog\Serialization\Blog.Templates\Blog\Settings\Footer Section.yml = src\Feature\Blog\Serialization\Blog.Templates\Blog\Settings\Footer Section.yml
+		src\Feature\Blog\Serialization\Blog.Templates\Blog\Settings\Header Section.yml = src\Feature\Blog\Serialization\Blog.Templates\Blog\Settings\Header Section.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tags", "Tags", "{38ABB431-62CE-426E-9C3C-8A933AE0475D}"
+	ProjectSection(SolutionItems) = preProject
+		src\Feature\Blog\Serialization\Blog.Templates\Blog\Tags\__Standard Values.yml = src\Feature\Blog\Serialization\Blog.Templates\Blog\Tags\__Standard Values.yml
+		src\Feature\Blog\Serialization\Blog.Templates\Blog\Tags\Tags Data Section.yml = src\Feature\Blog\Serialization\Blog.Templates\Blog\Tags\Tags Data Section.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BlogArticle Data Section", "BlogArticle Data Section", "{11039AEB-3679-4E72-93FA-F5F71FC4BEAB}"
+	ProjectSection(SolutionItems) = preProject
+		src\Feature\Blog\Serialization\Blog.Templates\Blog\BlogArticle\BlogArticle Data Section\BigImage.yml = src\Feature\Blog\Serialization\Blog.Templates\Blog\BlogArticle\BlogArticle Data Section\BigImage.yml
+		src\Feature\Blog\Serialization\Blog.Templates\Blog\BlogArticle\BlogArticle Data Section\BlogArticleId.yml = src\Feature\Blog\Serialization\Blog.Templates\Blog\BlogArticle\BlogArticle Data Section\BlogArticleId.yml
+		src\Feature\Blog\Serialization\Blog.Templates\Blog\BlogArticle\BlogArticle Data Section\Category.yml = src\Feature\Blog\Serialization\Blog.Templates\Blog\BlogArticle\BlogArticle Data Section\Category.yml
+		src\Feature\Blog\Serialization\Blog.Templates\Blog\BlogArticle\BlogArticle Data Section\LongText.yml = src\Feature\Blog\Serialization\Blog.Templates\Blog\BlogArticle\BlogArticle Data Section\LongText.yml
+		src\Feature\Blog\Serialization\Blog.Templates\Blog\BlogArticle\BlogArticle Data Section\PostDate.yml = src\Feature\Blog\Serialization\Blog.Templates\Blog\BlogArticle\BlogArticle Data Section\PostDate.yml
+		src\Feature\Blog\Serialization\Blog.Templates\Blog\BlogArticle\BlogArticle Data Section\ShortText.yml = src\Feature\Blog\Serialization\Blog.Templates\Blog\BlogArticle\BlogArticle Data Section\ShortText.yml
+		src\Feature\Blog\Serialization\Blog.Templates\Blog\BlogArticle\BlogArticle Data Section\SmallImage.yml = src\Feature\Blog\Serialization\Blog.Templates\Blog\BlogArticle\BlogArticle Data Section\SmallImage.yml
+		src\Feature\Blog\Serialization\Blog.Templates\Blog\BlogArticle\BlogArticle Data Section\Tags.yml = src\Feature\Blog\Serialization\Blog.Templates\Blog\BlogArticle\BlogArticle Data Section\Tags.yml
+		src\Feature\Blog\Serialization\Blog.Templates\Blog\BlogArticle\BlogArticle Data Section\Title.yml = src\Feature\Blog\Serialization\Blog.Templates\Blog\BlogArticle\BlogArticle Data Section\Title.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Category Data Section", "Category Data Section", "{EF97F856-A6EE-4ED8-91B2-A0C077AFA865}"
+	ProjectSection(SolutionItems) = preProject
+		src\Feature\Blog\Serialization\Blog.Templates\Blog\Category\Category Data Section\CategoryName.yml = src\Feature\Blog\Serialization\Blog.Templates\Blog\Category\Category Data Section\CategoryName.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tags Data Section", "Tags Data Section", "{D1AFE10F-4477-4F51-99B2-3C4148279C4C}"
+	ProjectSection(SolutionItems) = preProject
+		src\Feature\Blog\Serialization\Blog.Templates\Blog\Tags\Tags Data Section\TagName.yml = src\Feature\Blog\Serialization\Blog.Templates\Blog\Tags\Tags Data Section\TagName.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Footer Section", "Footer Section", "{C9999398-EB87-4650-A9D9-5BDC63D7811E}"
+	ProjectSection(SolutionItems) = preProject
+		src\Feature\Blog\Serialization\Blog.Templates\Blog\Settings\Footer Section\Copyright.yml = src\Feature\Blog\Serialization\Blog.Templates\Blog\Settings\Footer Section\Copyright.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Header Section", "Header Section", "{07527061-07B9-4DF6-932E-F3D41E1F8D0F}"
+	ProjectSection(SolutionItems) = preProject
+		src\Feature\Blog\Serialization\Blog.Templates\Blog\Settings\Header Section\Heading.yml = src\Feature\Blog\Serialization\Blog.Templates\Blog\Settings\Header Section\Heading.yml
+		src\Feature\Blog\Serialization\Blog.Templates\Blog\Settings\Header Section\Logo.yml = src\Feature\Blog\Serialization\Blog.Templates\Blog\Settings\Header Section\Logo.yml
+		src\Feature\Blog\Serialization\Blog.Templates\Blog\Settings\Header Section\SubHeading.yml = src\Feature\Blog\Serialization\Blog.Templates\Blog\Settings\Header Section\SubHeading.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog.Project.Website", "src\Project\Website\code\Blog.Project.Website.csproj", "{0DF71D09-F3C2-41A8-ABF2-9A1F323B6DDF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{51BC2B6A-6138-4340-97A1-8AC1DA617A84}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Navigation", "Navigation", "{F029D129-347C-4D6B-9CE3-0886EF932E48}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serialization", "Serialization", "{B7CB34DA-00CC-4288-B9FD-73BD9DD709D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog.Foundation.Serialization", "src\Foundation\Serialization\code\Blog.Foundation.Serialization.csproj", "{E9B9E23E-FDB2-4DEA-9D27-27BFAE001246}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog.Feature.Navigation", "src\Feature\Navigation\code\Blog.Feature.Navigation.csproj", "{CC46BFA9-C7A9-4E76-8EF6-35E7A93838D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F65F902-4443-43A4-9F74-3BD155B94E81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F65F902-4443-43A4-9F74-3BD155B94E81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F65F902-4443-43A4-9F74-3BD155B94E81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F65F902-4443-43A4-9F74-3BD155B94E81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DF71D09-F3C2-41A8-ABF2-9A1F323B6DDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DF71D09-F3C2-41A8-ABF2-9A1F323B6DDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DF71D09-F3C2-41A8-ABF2-9A1F323B6DDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DF71D09-F3C2-41A8-ABF2-9A1F323B6DDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9B9E23E-FDB2-4DEA-9D27-27BFAE001246}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9B9E23E-FDB2-4DEA-9D27-27BFAE001246}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9B9E23E-FDB2-4DEA-9D27-27BFAE001246}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9B9E23E-FDB2-4DEA-9D27-27BFAE001246}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC46BFA9-C7A9-4E76-8EF6-35E7A93838D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC46BFA9-C7A9-4E76-8EF6-35E7A93838D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC46BFA9-C7A9-4E76-8EF6-35E7A93838D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC46BFA9-C7A9-4E76-8EF6-35E7A93838D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{16C1E069-1C96-426E-BCD5-C8E5D2AF1118} = {B2104D85-DA54-4E06-A939-AE903F673566}
+		{5F65F902-4443-43A4-9F74-3BD155B94E81} = {16C1E069-1C96-426E-BCD5-C8E5D2AF1118}
+		{4110BB82-56B3-4B03-9B9D-0D80DDE7743C} = {16C1E069-1C96-426E-BCD5-C8E5D2AF1118}
+		{B69734CD-AC21-418D-AD01-A295345D34B0} = {4110BB82-56B3-4B03-9B9D-0D80DDE7743C}
+		{D1E1578E-3262-43AF-814B-F8601C462CC1} = {4110BB82-56B3-4B03-9B9D-0D80DDE7743C}
+		{72F08631-DC49-4964-BAE6-B07A735ADF45} = {4110BB82-56B3-4B03-9B9D-0D80DDE7743C}
+		{B824F0B8-9BDC-48E8-A987-6D835C3A4267} = {B69734CD-AC21-418D-AD01-A295345D34B0}
+		{AF8BA0FC-A190-4A5B-9303-2AF751CD3471} = {B824F0B8-9BDC-48E8-A987-6D835C3A4267}
+		{8F2DD23B-5E05-4FE3-8B89-32B7CE2C5278} = {AF8BA0FC-A190-4A5B-9303-2AF751CD3471}
+		{2C5E6D19-5404-4CF7-8EC6-AFCB2D2F4C4E} = {AF8BA0FC-A190-4A5B-9303-2AF751CD3471}
+		{2E93F64C-C605-433F-B6F8-47D9FA544386} = {2C5E6D19-5404-4CF7-8EC6-AFCB2D2F4C4E}
+		{662CE078-C695-4308-B466-39560802A65B} = {2C5E6D19-5404-4CF7-8EC6-AFCB2D2F4C4E}
+		{ACCAB8FF-DE87-44B3-9CBB-5F308524B5A9} = {D1E1578E-3262-43AF-814B-F8601C462CC1}
+		{94212718-4378-4EB3-A7D9-BD68A9C2F2B3} = {72F08631-DC49-4964-BAE6-B07A735ADF45}
+		{FD478744-9D66-4B10-AB56-A00CA4373B0A} = {4110BB82-56B3-4B03-9B9D-0D80DDE7743C}
+		{64A85DF9-7B0D-4874-9DF8-3A1D3B90D875} = {FD478744-9D66-4B10-AB56-A00CA4373B0A}
+		{7D8C12C2-1096-49B9-8036-215453BAA8F1} = {4110BB82-56B3-4B03-9B9D-0D80DDE7743C}
+		{89D81AF3-E5C2-4AC9-B1C7-0D00A4E35D71} = {7D8C12C2-1096-49B9-8036-215453BAA8F1}
+		{C2944393-D884-4D34-9BC5-0394EDC491A0} = {89D81AF3-E5C2-4AC9-B1C7-0D00A4E35D71}
+		{4C4EC764-0845-4080-AF2B-601B59596673} = {89D81AF3-E5C2-4AC9-B1C7-0D00A4E35D71}
+		{C17D57B4-E499-4876-A2B2-30BD25B06C93} = {89D81AF3-E5C2-4AC9-B1C7-0D00A4E35D71}
+		{38ABB431-62CE-426E-9C3C-8A933AE0475D} = {89D81AF3-E5C2-4AC9-B1C7-0D00A4E35D71}
+		{11039AEB-3679-4E72-93FA-F5F71FC4BEAB} = {C2944393-D884-4D34-9BC5-0394EDC491A0}
+		{EF97F856-A6EE-4ED8-91B2-A0C077AFA865} = {4C4EC764-0845-4080-AF2B-601B59596673}
+		{D1AFE10F-4477-4F51-99B2-3C4148279C4C} = {38ABB431-62CE-426E-9C3C-8A933AE0475D}
+		{C9999398-EB87-4650-A9D9-5BDC63D7811E} = {C17D57B4-E499-4876-A2B2-30BD25B06C93}
+		{07527061-07B9-4DF6-932E-F3D41E1F8D0F} = {C17D57B4-E499-4876-A2B2-30BD25B06C93}
+		{0DF71D09-F3C2-41A8-ABF2-9A1F323B6DDF} = {51BC2B6A-6138-4340-97A1-8AC1DA617A84}
+		{51BC2B6A-6138-4340-97A1-8AC1DA617A84} = {6E59A3F6-B13F-4533-B41D-69DFF56202C8}
+		{F029D129-347C-4D6B-9CE3-0886EF932E48} = {B2104D85-DA54-4E06-A939-AE903F673566}
+		{B7CB34DA-00CC-4288-B9FD-73BD9DD709D6} = {41310AA2-1731-4F2B-9B9E-9E0E9398C987}
+		{E9B9E23E-FDB2-4DEA-9D27-27BFAE001246} = {B7CB34DA-00CC-4288-B9FD-73BD9DD709D6}
+		{CC46BFA9-C7A9-4E76-8EF6-35E7A93838D3} = {F029D129-347C-4D6B-9CE3-0886EF932E48}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1491C204-6846-4960-A0BE-C70E4FF4709E}
+	EndGlobalSection
+EndGlobal
